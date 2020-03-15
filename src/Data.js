@@ -133,5 +133,4 @@ const data = [
 
   ];
   
-  export default (n = 5) =>
-    Promise.resolve(data.sort(() => 0.5 - Math.random()).slice(0, n));
+  export default (n = 5) => data.sort(() => 0.5 - Math.random()).slice(0, n);
